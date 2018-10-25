@@ -1,0 +1,24 @@
+{
+  "name": "booklet",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "modernizr": "~2.8.1",
+    "turn.js": "*",
+    "zoomooz": "^1.1.6",
+    "slick-carousel": "^1.8.1",
+    "font-awesome": "Font-Awesome#^4.7.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.0"
+  },
+  "overrides": {
+    "turn.js": {
+      "main": "turn.js"
+    },
+    "zoomooz": {
+      "main": "jquery.zoomooz.min.js"
+    }
+  }
+}
